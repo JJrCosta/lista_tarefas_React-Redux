@@ -10,5 +10,5 @@ export const Resultado = styled.p`
   display: block;
   margin: 40px 0;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 18px;
 `

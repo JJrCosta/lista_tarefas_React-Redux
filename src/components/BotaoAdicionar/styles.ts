@@ -9,8 +9,8 @@ export const Circulo = styled(Link)`
   position: fixed;
   bottom: 40px;
   right: 40px;
-  height: 64px;
-  width: 64px;
+  height: 58px;
+  width: 58px;
   background-color: #44bf32;
   border-radius: 50%;
   color: #fff;

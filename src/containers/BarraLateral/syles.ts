@@ -1,8 +1,9 @@
 import styled from 'styled-components'
+import variaveis from '../../styles/variaveis'
 
 export const Aside = styled.aside`
   padding: 16px;
-  background-color: #eee;
+  background-color: ${variaveis.branco4};
   height: 100vh;
 `
 

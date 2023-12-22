@@ -4,7 +4,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import EstiloGlobal, { Container } from './styles'
 import Home from './pages/Home'
 import store from './store'
-import path from 'path'
 import Cadastro from './pages/Cadastro'
 
 const rotas = createBrowserRouter([

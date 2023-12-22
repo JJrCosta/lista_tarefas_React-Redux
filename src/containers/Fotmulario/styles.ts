@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import variaveis from '../../styles/variaveis'
 
 export const Form = styled.form`
   max-width: 547px;
@@ -15,7 +16,7 @@ export const Opcoes = styled.div`
   margin-bottom: 16px;
   font-weight: bold;
   font-size: 14px;
-  color: #666;
+  color: ${variaveis.grafite};
 
   p {
     margin-bottom: 8px;

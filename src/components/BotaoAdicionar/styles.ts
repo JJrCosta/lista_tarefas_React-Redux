@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 
 import styled from 'styled-components'
+import variaveis from '../../styles/variaveis'
 
 export const Circulo = styled(Link)`
   display: flex;
@@ -11,9 +12,9 @@ export const Circulo = styled(Link)`
   right: 40px;
   height: 58px;
   width: 58px;
-  background-color: #44bf32;
+  background-color: ${variaveis.verde};
   border-radius: 50%;
-  color: #fff;
+  color: ${variaveis.branco1};
   font-size: 40px;
   text-decoration: none;
 `
